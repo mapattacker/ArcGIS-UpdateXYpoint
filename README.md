@@ -1,4 +1,4 @@
-# Update point feature class XY coordinates based on new feature class / shapefile
+## Update point feature class XY coordinates based on new feature class / shapefile
 
 ### Description
 Sometimes, one might need to update the coordinates of a point feature class based on a new submission by another colleague. 
