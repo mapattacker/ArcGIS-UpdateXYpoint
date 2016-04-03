@@ -12,3 +12,7 @@ As this requires some ArcPy functions, ArcGIS needs to be already installed to w
 
 ### Format
 The original dataset must be a feature class stored in a file geodatabase. Unfortunately, I can't get it to work in an ArcSDE geodatabase yet. New dataset can be either a feature class or shapefile.
+
+### ArcGIS Tool
+
+I have also created an ArcGIS tool to perform the same function. Place the script and toolbox inside the Toolbox folder somewhere together and add the latter into ArcMap/Catalog ArcToolbox window.
