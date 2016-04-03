@@ -6,7 +6,7 @@ import arcpy
 arcpy.env.workspace = r"C:\Users\User\XX\XXX.gdb"    #Input geodatabase path
 new_FC = "FeatureClassName"     #Input new feature class name
 original_FC = "C:\Users\User\XX\XXX.gdb\OriginalFeatureClassName"    #Input original feature class (or shapefile) path / feature class name if in same geodatabase as original feature class
-common_attribute = "NameOfCommonField"      #Input common field name for matching between original and new feature classes
+common_attribute = "NameOfCommonField"      #Input common field name with unique feature ID for matching between original and new feature classes
 #####################################################################
 
 
