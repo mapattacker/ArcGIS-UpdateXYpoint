@@ -7,9 +7,9 @@ ESRI has an decent blog post on how to do this in the Field Calculator in ArcMap
 
 ##### In summary:
 
-1) You have one shapefile / feature class of a new XY coordinates. You want to update the original features in the feature class. They both have a common unique ID field.
+1) You have one point shapefile / feature class of a new XY coordinates. You want to update the original features in the feature class. They both have a common unique ID field.
 
-2) Use the script or tool to run it.
+2) Use the script will take update the XY geometries of the original feature class based on the new shapefile / feature class.
 
 ### Requirements
 As this requires some ArcPy functions, ArcGIS needs to be already installed to work.
